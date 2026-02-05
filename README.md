@@ -100,27 +100,3 @@ movies-api/
 
 
 ---
-
-### 5. Как выложить на GitHub:
-
-1. **Создай репозиторий на GitHub** с названием `movies-api` (без README, без .gitignore)
-
-2. **В терминале выполни:**
-```bash
-# Инициализируй Git
-git init
-
-
-# Добавь все файлы
-git add .
-
-# Сделай первый коммит
-git commit -m "Initial commit: Simple Movies API with FastAPI and MySQL"
-
-# Привяжи к GitHub репозиторию
-git branch -M main
-git remote add origin https://github.com/<твой-логин>/movies-api.git
-
-# Запушь
-git push -u origin main
-```
